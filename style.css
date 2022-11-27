@@ -1,0 +1,157 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+
+header {
+    background-color: #1f2937;
+    padding: 16px 0;
+  }
+  
+  header div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  header h1 {
+    font-size: 24px;
+    color: #f9faf8;
+  }
+  
+  header a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb;
+  }
+  
+  ul {
+    display: flex;
+    list-style-type: none;
+    width: 400px;
+    justify-content: space-between;
+  }
+  
+  .container {
+    margin: 0 210px;
+  }
+  
+  .image-placeholder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #999999;
+  }
+  
+  .image-placeholder p {
+    color: white;
+    width: 500px;
+    text-align: center;
+  }
+
+  .hero {
+    display: flex;
+    justify-content: space-between;
+    padding: 120px 0;
+  }
+  
+  .hero h2 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #f9faf8;
+  }
+  
+  .hero p {
+    font-size: 18px;
+    color: #e5e7eb;
+  }
+  
+  .hero article {
+    width: 450px;
+  }
+  
+  .section-hero {
+    background-color: #1f2937;
+  }
+  
+  .hero button {
+    background-color: #3882f6;
+    border: none;
+    color: #e5e7eb;
+    font-weight: bold;
+    padding: 8px 12px;
+    border-radius: 8px;
+    width: 120px;
+    font-size: 16px;
+    margin-top: 12px;
+  }
+
+.sri{
+    text-align: center;
+    margin: 20px;
+}
+.sri-column{
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+.sri-row::after{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    content: "";
+    clear: both;
+}
+
+.quote{
+    background-color: #E5E7EB;
+    text-align: center;
+    align-content: center;
+    padding: 50px;
+    border: #f9faf8;
+    border: 50px;
+    margin: 50px;
+}
+
+p.quote{
+    color: #1f2937;
+    font-size: 36px light italic;
+}
+
+h1.quote{
+    float: right;
+}
+
+.cta{
+    background-color: #3882f6;
+    color: #E5E7EB;
+    text-align: left;
+    padding: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.hero-btn{
+    background-color: #3882f6;
+    border: white;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+footer {
+    text-align: center;
+    color: #f9faf8;
+    background-color: #1f2937;
+    padding: 10px;
+    border: 20px;
+    margin: 30px;
+}
+
